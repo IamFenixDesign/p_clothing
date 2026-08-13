@@ -22,6 +22,9 @@
   "command_bag": "bag",
   "command_bag_description": "Open or close your bag.",
 
+  "command_bagoff": "bagoff",
+  "command_bagoff_description": "Remove your bag and parachute.",
+
   "command_mask": "mask",
   "command_mask_description": "Change or toggle your mask.",
 

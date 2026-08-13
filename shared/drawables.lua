@@ -32,6 +32,11 @@ return {
         table = variations.bags,
         anim = { dict = "anim@heists@ornate_bank@grab_cash", name = "intro", flag = 51, dur = 1600 }
     },
+    ["bagoff"] = {
+        drawable = 5,
+        table = { standalone = true, male = 0, female = 0 },
+        anim = { dict = "anim@heists@ornate_bank@grab_cash", name = "intro", flag = 51, dur = 1600 }
+    },
     ["mask"] = {
         drawable = 1,
         table = { standalone = true, male = 0, female = 0 },

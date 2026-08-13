@@ -22,6 +22,9 @@
     "command_bag": "bolsa",
     "command_bag_description": "Abre o cierra tu bolso.",
 
+    "command_bagoff": "quitarbolsa",
+    "command_bagoff_description": "Quita la bolsa y el paracaídas.",
+
     "command_mask": "mascara",
     "command_mask_description": "Cambia o alterna tu máscara.",
 
