@@ -2,7 +2,7 @@
 
 **p-clothing** is a fully re-coded and enhanced version of the popular [dpclothing](https://forum.cfx.re/t/dpclothing-1-0-3-clothing-variations-and-toggles-gloves-vest-top-hair-bag-and-more/1326317) script, now built entirely in React for a more modern and efficient experience.
 
-![Clothing Menu Preview](https://unityx.fi/fivem/VAATEMENU.gif)
+https://i.imgur.com/ko2fDSV.jpeg
 
 ## Features
 
