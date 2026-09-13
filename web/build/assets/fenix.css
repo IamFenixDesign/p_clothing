@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  --fenix-accent: #7c6cf0;
+  --fenix-accent-strong: #6b5ce0;
+  --fenix-surface: #1c1c24;
+  --fenix-border: #32323e;
+  --fenix-text: #f2f2f6;
+}
+
+html,
+body,
+#root {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+g.cursor-pointer path,
+g.cursor-pointer circle {
+  transition:
+    stroke 0.15s cubic-bezier(0.32, 0.72, 0, 1),
+    stroke-width 0.15s cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+g.cursor-pointer:hover > path[fill="none"],
+g.cursor-pointer:hover > circle[fill="none"] {
+  stroke: #7c6cf0 !important;
+}
+
+g.cursor-pointer:hover > path:not([fill="none"]) {
+  stroke: #7c6cf0;
+  stroke-width: 2;
+  stroke-linejoin: round;
+}
+
+g.cursor-pointer:hover image {
+  filter: brightness(1.18);
+}
